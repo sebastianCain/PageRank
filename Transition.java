@@ -44,9 +44,8 @@ public class Transition {
         while (!StdIn.isEmpty())  {
             int i = StdIn.readInt(); 
             int j = StdIn.readInt(); 
-            outDegree[i]++;
-			// Changed from ++ to  = 1, so that it always sets to 1 linkno matter how many links.
-            counts[i][j] = 1; 
+            outDegree[i]++; 
+            counts[i][j]++; 
         } 
         StdOut.println(N + " " + N); 
 

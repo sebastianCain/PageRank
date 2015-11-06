@@ -1,0 +1,5 @@
+Exercise 4:
+
+The random move fails if the probabilities do not add up to 1 because the random number can be higher than the sum of the probabilities, which means that (r < sum) is never triggered and page = j; and break; never run, and the for loop terminates without jumping a page.
+
+This can be fixed by setting your random number to between 0 and the sum of the page probabilities instead of 0 and 1.

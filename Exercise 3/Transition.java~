@@ -52,13 +52,14 @@ public class Transition {
 
         // Print probability distribution for row i. 
         for (int i = 0; i < N; i++)  {
-	    double p;
+
             // Print probability for column j. 
             for (int j = 0; j < N; j++) {
-		if (outDegree[i]==0) {
-			p = 1/N;//We use 1/N as there are no links to click on
-		} else {
-			p = .90*counts[i][j]/outDegree[i] + .10/N; 
+		if (counts[i][j]==0) {
+			double p = 1/N;//We use 1/N as there are no links to click on
+		}
+                else{
+			double p = .90*counts[i][j]/outDegree[i] + .10/N; 
 		}
                 StdOut.printf("%7.5f ", p); 
             } 
