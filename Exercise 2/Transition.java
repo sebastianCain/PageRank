@@ -44,8 +44,17 @@ public class Transition {
         while (!StdIn.isEmpty())  {
             int i = StdIn.readInt(); 
             int j = StdIn.readInt(); 
-            outDegree[i]++; 
-            counts[i][j]++; 
+            outDegree[i]++;
+			// Changed from ++ to  = 1, so that it always sets to 1 linkno matter how many links.
+            counts[i][j] = 1; 
+			// The result changes to
+			// 0.02000 0.92000 0.02000 0.02000 0.02000 
+			// 0.02000 0.02000 0.20000 0.20000 0.20000 
+			// 0.02000 0.02000 0.02000 0.92000 0.02000 
+			// 0.92000 0.02000 0.02000 0.02000 0.02000 
+			// 0.47000 0.02000 0.47000 0.02000 0.02000 
+
+			// So the double links go from .38 to .20
         } 
         StdOut.println(N + " " + N); 
 
@@ -55,8 +64,7 @@ public class Transition {
 
             // Print probability for column j. 
             for (int j = 0; j < N; j++) {
-				// Changed here to 80 and 20 vvv
-                double p = .80*counts[i][j]/outDegree[i] + .20/N; 
+                double p = .90*counts[i][j]/outDegree[i] + .10/N; 
                 StdOut.printf("%7.5f ", p); 
             } 
             StdOut.println(); 

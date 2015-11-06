@@ -55,8 +55,7 @@ public class Transition {
 
             // Print probability for column j. 
             for (int j = 0; j < N; j++) {
-				// Changed here to 80 and 20 vvv
-                double p = .80*counts[i][j]/outDegree[i] + .20/N; 
+                double p = .90*counts[i][j]/outDegree[i] + .10/N; 
                 StdOut.printf("%7.5f ", p); 
             } 
             StdOut.println(); 
