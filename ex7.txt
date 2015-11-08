@@ -1,0 +1,10 @@
+By adding links from 23 to every other site, certain internet behavioral paterns were 
+favored over others. Markov.java was used to reasses the rankings, and the resulting 
+two lists were compared by nature of having each corresponding value diveded by the 
+original value, thereby finding the change that occured at that individual site. As a whole
+the average value of change was 19%, the site that saw the greatest inreace in traffic was 
+site #21, which saw an change of 49%, and the site least affected was 46, which saw a 1% 
+change in trafic. Oddly enough site #23 lost 8% of its trafic, and the other great losers 
+were #11, 21, 22, which lost 34, 48 and 32 % of their original traffic. These sites all had 
+previous links from 23, thus making the link less likelly to be chosen. The big winners were
+sites # 0, 3, 10, 17, and 20, all which saw in increase of approximatelly 33% of traffic.
