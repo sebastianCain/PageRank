@@ -1,0 +1,3 @@
+To increase the ranking value of site 23 we can send a link from site 23 to site 13, as site
+13 is the only site that has a direct link to site 23, sites that would aditionally help site
+23's reanking would be ones that indirectlly link to 23 via 13. Such a site would be site 6.
