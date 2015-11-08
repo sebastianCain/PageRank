@@ -1,0 +1,7 @@
+When addding links to each site to site 23, there were graeter changes than observed in ex 7.
+First of all the magnitude of change was alot larger as site 23 became several times more popular.
+Site 23, sa an increase of 580 % of traffic. among the top winners were sites 11 and 21, 
+witha 150% and 170% gain respectivelly. The new simulation was more voliile as on averge, 
+sites had a 62% change in web traffic from the previous model. Oddly site 10 had the exact 
+same ranking. The great losers were sites, 9, 16, 18, 31 and 41, all losing approximatelly 75%
+of their prevoius traffic. The big winners all had links to or were site 23. 
