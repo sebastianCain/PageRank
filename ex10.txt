@@ -1,4 +1,6 @@
-To solve question ten, our group decided to add links from sites to 23, until one of the 
-sites saw a lesser rating. Ths happened when a link between site 2 and 23 was established 
-as accroding to Markov.java, the rating droped from 0.00909 to 0.00893. This is an example 
-of a link form one site to another hurting the site that gave the link to site 23.
+When links where created from site 23 to any other site, the resulting ranking of the site 
+was higher. This is beacuse the structure of the links in medium.txt, did not allow for a 
+situation in which a link led to the internet surfer being steared away from the terminal 
+site. This makes sense, as by adding a link to a site, there is only a greater number of 
+links to that site, and with the known stabilizing patern used by Markov.java it can be seen
+that increased links lead to a higher rating. 
