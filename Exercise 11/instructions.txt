@@ -1,0 +1,5 @@
+Move ex11.txt out of this folder, and then run with 
+java Transition < ex11.txt | java RandomSurfer 1000000
+and get:
+0.18380 0.17791 0.09660 0.16772 0.04477 0.10341 0.08780 0.13799
+
