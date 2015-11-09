@@ -1,0 +1,6 @@
+Move ex12.txt out of this folder, and then run with 
+java Transition < ex12.txt | java Markov 40
+and get:
+ 0.18343 0.17758 0.09644 0.16769 0.04447 0.10376 0.08812 0.13850
+
+
