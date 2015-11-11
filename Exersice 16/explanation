@@ -1,0 +1,7 @@
+Using markov chains it was found that the rankings for the senario in ex16.txt was 
+0.17522 0.09315 0.05622 0.03961 0.03213 0.35760 0.24726
+If you were to look at the file, you could see that site 5 only has 3 links to it, yet 
+site 6 has 4, however site 5 has a higher ranking. This is beacuse sites 2 3 and 4 could 
+be replaced by one site, as they either go to site 6, or one site further. At 4 the web 
+has to go to site six. This chain allows for 3 superfluos links, and when combined with
+the meaningful links going to site 3, allows site 3 to have a higher rating. 
