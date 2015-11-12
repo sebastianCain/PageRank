@@ -1,0 +1,11 @@
+Hubs.java has three preditermined hubs, and the same number of authorities. There must be six
+or more sites inputed for the code to work. When run, in conjunction with Transition.java
+and Markov.java:
+java Hubs 10 1000 | java Transition | java Markov 40
+the result was:
+0.12842 0.14386 0.14021 0.07974 0.07844 0.08568 0.07926 0.08745 0.08264 0.09434
+The hubs were the first three sites, 0, 1, 2. The authorities were the sites 3, 4, 5.
+The Hubs had significantlly higher ranks due to the links that pulled trafic towards them, 
+as opposed to the authorities, whose links had no impact on their rank. While these results
+will not allways be true, as their is some randomness, a large enough sample size suggests,
+that the Hubs should allways be ranked higher.
