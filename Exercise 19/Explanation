@@ -1,0 +1,6 @@
+GraphicSim.java, works by pulling in the required ratings from the products of Markov chain 
+manipulation, and then using that data to draw circles, and place labels over the respective 
+circle.
+A posible run test:
+java Transition < medium.txt | java Markov.java | java GraphicSim.java
+
