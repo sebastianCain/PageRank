@@ -1,0 +1,1 @@
+The number of iterations required for Markov.java to compute page ranks to three decimals places is 2, the number of iterations for 4 decimals places is 2, and the number of iterations required for ten decimal places is 8. The output for 2 iterations can either be 3 or 4 decimal places and when we ran 8 iterations it gave 10 decimal places.

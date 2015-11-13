@@ -1,0 +1,1 @@
+The number of iteratations required for RandomSurfer to compute page ranks for four decimal places and five decimal places for tiny.txt is 10000 and 100000.
